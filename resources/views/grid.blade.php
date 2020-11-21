@@ -2,6 +2,8 @@
 @section('title', 'Grid')
 @section('content')
 <div id="main-container" class="container">
+<br><br>
+<h1>Intervalo de fechas</h1>
 <table class="table table-hover">
   <thead>
     <tr>
@@ -11,7 +13,7 @@
     </tr>
   </thead>
   <tbody>
-    <?php foreach( $fechas as $fecha) : ?>
+    <?php foreach( @$fechas as $fecha) : ?>
     <tr>
       <td><?= $fecha['fecha_inicial']; ?></td>
       <td><?= $fecha['fecha_final']; ?></td>

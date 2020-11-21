@@ -15,7 +15,7 @@
     </tr>
   </thead>
   <tbody>
-    <?php foreach( $medicos as $medico) : ?>
+    <?php foreach( @$medicos as $medico) : ?>
     <tr>
       <td><?= $medico->nombre; ?></td>
       <td><?= $medico->apellidos; ?></td>
