@@ -3,6 +3,7 @@
 @section('content')
 <div id="main-container" class="container">
 <br><br>
+<h1>Ejercicio 2</h1>
 <a class="btn btn-success mb-2" href="{{ url('/medicos/create') }}">Agregar</a>
 <table class="table table-hover">
   <thead>

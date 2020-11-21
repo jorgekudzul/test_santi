@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('fechas', 'App\Http\Controllers\CalendarioController@vista_uno');
 Route::post('fechas', 'App\Http\Controllers\CalendarioController@calculate');
 
 Route::resource('medicos', 'App\Http\Controllers\MedicosController');

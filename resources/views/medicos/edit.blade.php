@@ -2,6 +2,9 @@
 @section('title', 'Inicio')
 @section('content')
 <div id="main-container" class="container">
+<br><br>
+<h1>Editar Médico</h1>
+
 <div class="container">
     <br>
     <form action="{{ url('/medicos/'.$medico->id) }}" method="POST">

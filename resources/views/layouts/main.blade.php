@@ -9,6 +9,7 @@
     </head>
     <body>
         <div id="main" class="row">
+            <br><br>
             @yield('content')
         </div>
     

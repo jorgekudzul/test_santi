@@ -43,4 +43,8 @@ class CalendarioController extends Controller
         
         return view('grid', compact('fechas'));
     }
+
+    function vista_uno(Request $request) {
+        return view('fechas.fechas');
+    }
 }

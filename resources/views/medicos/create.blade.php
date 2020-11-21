@@ -2,8 +2,10 @@
 @section('title', 'Inicio')
 @section('content')
 <div id="main-container" class="container">
+<br><br>
+<h1>Agregar Médico</h1>
+
 <div class="container">
-    <br>
     <form action="{{ url('/medicos') }}" method="POST">
     {{ csrf_field() }}
     <div class="row">
