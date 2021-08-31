@@ -8,5 +8,10 @@ pipeline {
                 sh 'echo "Hello World"'
             }
         }
+        stage('Trying npm install ') {
+            steps {
+                sh 'npm install'
+            }
+        }
     }
 }
