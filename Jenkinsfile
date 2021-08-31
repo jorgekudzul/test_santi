@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'roku'
+        label 'test_joku'
     }
     stages {
         stage('build') {
